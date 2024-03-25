@@ -26,7 +26,7 @@ let s:Colors = [
 
 " Syntax
 execute "hi Normal  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Comment guifg="     . s:Colors[17]  . " guibg=" . s:Colors[12] . " gui=italic"
+execute "hi Comment guifg="     . s:Colors[12]  . " guibg=" . s:Colors[12] . " gui=italic"
 execute "hi Conditional guifg=" . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Constant guifg="    . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Error guifg="       . s:Colors[7]  . " guibg=" . s:Colors[12] . " gui=none"
