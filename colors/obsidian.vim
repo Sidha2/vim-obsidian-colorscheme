@@ -16,12 +16,24 @@ endif
 let g:colors_name="obsidian"
 
 let s:Colors = [
-  \'#a082bd','#878A8C','#79b541',
-  \'#d5a400','#ec7600','#ff850a',
-  \'#d5cb7d','#d39745','#697276',
-  \'#678cb1','#5899c0','#5ab9be',
-  \'#1a252a','#24333a','#e1c70d',
-  \'#ffffff','#3c5975','#374043']
+  \'#a082bd',
+  '#878A8C',
+  '#79b541',
+  \'#d5a400',
+  '#ec7600',
+  '#ff850a',
+  \'#d5cb7d',
+  '#d39745',
+  '#697276', " comments
+  \'#678cb1',
+  '#5899c0',
+  '#5ab9be',
+  \'#1a252a',
+  '#24333a',
+  '#e1c70d',
+  \'#ffffff',
+  '#3c5975',
+  '#374043']
 
 " Syntax
 execute "hi Normal  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
