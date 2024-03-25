@@ -36,7 +36,7 @@ execute "hi PreProc guifg="     . s:Colors[0]  . " guibg=" . s:Colors[12] . " gu
 execute "hi Repeat guifg="      . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Special guifg="     . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Statement guifg="   . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Number guifg="      . s:Colors[3]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi Number guifg="      . s:Colors[3]  . " guibg="" gui=none"
 execute "hi Boolean guifg="     . s:Colors[11] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi String guifg="      . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Character guifg="   . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
