@@ -19,7 +19,7 @@ let g:colors_name="obsidian"
 let s:Colors = [
   \'#a082bd','#c4c8cc','#79b541',
   \'#d5a400','#ec7600','#ff850a',
-  \'#d5cb7d','#d39745','#394246',
+  \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
   \'#1a252a','#24333a','#e1c70d',
   \'#ffffff','#3c5975','#374043']
@@ -62,17 +62,17 @@ execute "hi MatchParen guifg="  . s:Colors[12] . " guibg=" . s:Colors[11] . " gu
 execute "hi ModeMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi MoreMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi NonText guifg="     . s:Colors[17]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Pmenu guifg="       . s:Colors[1]  . " guibg=" . s:Colors[8]  . " gui=none"
+execute "hi Pmenu guifg="       . s:Colors[1]  . " guibg=" . s:Colors[12]  . " gui=none"
 execute "hi PmenuSel guifg="    . s:Colors[13] . " guibg=" . s:Colors[9]  . " gui=none"
 execute "hi Question guifg="    . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Search guifg="      . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi SpecialKey guifg="  . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi StatusLine guifg="  . s:Colors[15] . " guibg=" . s:Colors[16] . " gui=none"
-execute "hi StatusLineNC guifg=". s:Colors[15] . " guibg=" . s:Colors[8]  . " gui=none"
+execute "hi StatusLineNC guifg=". s:Colors[15] . " guibg=" . s:Colors[12]  . " gui=none"
 execute "hi TabLine guifg="     . s:Colors[8]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi TabLineFill guifg=" . s:Colors[12] . " guibg=" . s:Colors[13] . " gui=none"
 execute "hi TabLineSel guifg="  . s:Colors[1]  . " guibg=" . s:Colors[13] . " gui=none"
-execute "hi Tooltip guifg="     . s:Colors[9]  . " guibg=" . s:Colors[8]  . " gui=none"
+execute "hi Tooltip guifg="     . s:Colors[9]  . " guibg=" . s:Colors[12]  . " gui=none"
 execute "hi VertSplit guifg="   . s:Colors[0]  . " guibg=" . s:Colors[13] . " gui=none"
 execute "hi Visual  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[0]  . " gui=none"
 hi VisualNOS gui=none guibg=black
