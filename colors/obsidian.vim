@@ -16,7 +16,6 @@ endif
 let g:colors_name="obsidian"
 
 let s:Colors = [
-  " \'#a082bd','#c4c8cc','#79b541',
   \'#a082bd','#878A8C','#79b541',
   \'#d5a400','#ec7600','#ff850a',
   \'#d5cb7d','#d39745','#30383b',
