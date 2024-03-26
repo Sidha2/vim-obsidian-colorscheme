@@ -43,7 +43,7 @@ execute "hi String guifg="      . s:Colors[5]  . " guibg=" . s:Colors[12] . " gu
 execute "hi Character guifg="   . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Title guifg="       . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Todo guifg="        . s:Colors[12] . " guibg=" . s:Colors[0]  . " gui=none guisp=NONE"
-execute "hi Type guifg="        . s:Colors[9]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi Type guifg="        . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=BOLD"
 execute "hi Underline guifg="   . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
 
 " Groups
