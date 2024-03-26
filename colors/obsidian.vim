@@ -58,7 +58,7 @@ execute "hi FoldColumn guifg="  . s:Colors[13] . " guibg=" . s:Colors[12] . " gu
 execute "hi Folded guifg="      . s:Colors[12] . " guibg=" . s:Colors[11] . " gui=none"
 execute "hi IncSearch guifg="   . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi LineNr guifg="      . s:Colors[8]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi MatchParen guifg="  . s:Colors[14] . " guibg="" gui=none"
+execute "hi MatchParen guifg="  . s:Colors[14] . " guibg="" gui=bold"
 execute "hi ModeMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi MoreMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi NonText guifg="     . s:Colors[17]  . " guibg=" . s:Colors[12] . " gui=none"
