@@ -34,6 +34,7 @@ let s:Colors = [
  " preproc - function / use
  " statement - return
  " identifier - variable
+ " special - brackets
 
 " Syntax
 execute "hi Normal  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
@@ -47,7 +48,7 @@ execute "hi Ignore guifg="      . s:Colors[1]
 execute "hi Operator guifg="    . s:Colors[6]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi PreProc guifg="     . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Repeat guifg="      . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=bold"
-execute "hi Special guifg="     . s:Colors[0]  . " guibg=" . s:Colors[12] . " gui=bold"
+execute "hi Special guifg="     . s:Colors[10]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Statement guifg="   . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Number guifg="      . s:Colors[3]  . " guibg=none gui=none"
 execute "hi Boolean guifg="     . s:Colors[11] . " guibg=none gui=none"
