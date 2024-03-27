@@ -58,6 +58,7 @@ execute "hi Title guifg="       . s:Colors[11]  . " guibg=" . s:Colors[12] . " g
 execute "hi Todo guifg="        . s:Colors[12] . " guibg=" . s:Colors[0]  . " gui=none guisp=NONE"
 execute "hi Type guifg="        . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=BOLD"
 execute "hi Underline guifg="   . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi Keyword guifg="   . s:Colors[0] . " guibg=" . s:Colors[12] . " gui=none"
 
 " Groups
 execute "hi ColorColumn guifg=NONE guibg=" . s:Colors[13] . " gui=none"
