@@ -10,9 +10,9 @@
 set background=dark
 hi clear
 
-if exists("syntax_on")
-  syntax reset
-endif
+"if exists("syntax_on")
+"  syntax reset
+"endif
 let g:colors_name="obsidian"
 
 " 697276 - comments and side numbers
