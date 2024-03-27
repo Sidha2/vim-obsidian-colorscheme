@@ -24,7 +24,7 @@ let g:colors_name="obsidian"
 "   \'#1a252a','#24333a','#e1c70d',
 "   \'#ffffff','#3c5975','#374043']
 let s:Colors = [
-  \'#00ff80','#ff00ff','#ff0000',
+  \'#a082bd','#c4c8cc','#79b541',
   \'#d5a400','#ec7600','#ff850a',
   \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
@@ -48,7 +48,7 @@ execute "hi Number guifg="      . s:Colors[3]  . " guibg=none gui=none"
 execute "hi Boolean guifg="     . s:Colors[11] . " guibg=none gui=none"
 execute "hi String guifg="      . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Character guifg="   . s:Colors[5]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Title guifg="       . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi Title guifg="       . s:Colors[11]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Todo guifg="        . s:Colors[12] . " guibg=" . s:Colors[0]  . " gui=none guisp=NONE"
 execute "hi Type guifg="        . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=BOLD"
 execute "hi Underline guifg="   . s:Colors[10] . " guibg=" . s:Colors[12] . " gui=none"
