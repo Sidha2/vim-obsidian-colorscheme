@@ -16,8 +16,15 @@ endif
 let g:colors_name="obsidian"
 
 " 697276 - comments and side numbers
+" let s:Colors = [
+"   \'#a082bd','#c4c8cc','#79b541',
+"   \'#d5a400','#ec7600','#ff850a',
+"   \'#d5cb7d','#d39745','#4e5a5f',
+"   \'#678cb1','#5899c0','#5ab9be',
+"   \'#1a252a','#24333a','#e1c70d',
+"   \'#ffffff','#3c5975','#374043']
 let s:Colors = [
-  \'#a082bd','#c4c8cc','#79b541',
+  \'#00ff80','#ff00ff','#ff0000',
   \'#d5a400','#ec7600','#ff850a',
   \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
