@@ -29,7 +29,7 @@ let s:Colors = [
   \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
   \'#1a252a','#24333a','#e1c70d',
-  \'#ffffff','#3c5975','#374043']
+  \'#ffffff','#3c5975','#374043', '#79b541']
   
  " preproc - function / use
  " statement - return
@@ -42,7 +42,7 @@ execute "hi Comment guifg="     . s:Colors[8]  . " guibg=" . s:Colors[12] . " gu
 execute "hi Conditional guifg=" . s:Colors[2]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Constant guifg="    . s:Colors[10]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi Error guifg="       . s:Colors[7]  . " guibg=" . s:Colors[12] . " gui=none"
-execute "hi Identifier guifg="  . s:Colors[11]  . " guibg=" . s:Colors[12] . " gui=bold"
+execute "hi Identifier guifg="  . s:Colors[18]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Function guifg="    . s:Colors[6]  . " guibg=" . s:Colors[12] . " gui=bold"
 execute "hi Ignore guifg="      . s:Colors[1]
 execute "hi Operator guifg="    . s:Colors[6]  . " guibg=" . s:Colors[12] . " gui=none"
