@@ -29,7 +29,7 @@ let s:Colors = [
   \'#d5cb7d','#d39745','#4e5a5f',
   \'#678cb1','#5899c0','#5ab9be',
   \'#1a252a','#24333a','#e1c70d',
-  \'#ffffff','#3c5975','#374043', '#ff0000']
+  \'#ffffff','#3c5975','#374043', '#79b541']
   
  " preproc - function / use
  " statement - return
